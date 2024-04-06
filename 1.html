@@ -1,0 +1,53 @@
+<!-- Design a web page using CSS (Cascading Style Sheets)
+which  includes the following features:
+1) Use different font, styles:
+In the style definition you define how each selector should work
+(font,color etc.). Then, in the body of your pages, you refer to
+these selectors to activate the styles. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS 1</title>
+<style>
+    
+    .header {
+        font-family: Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .paragraph {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-style: italic;
+        color: rgb(50, 108, 50);
+    }
+
+    .link {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(104, 46, 46);
+        text-decoration: none;
+        font-variant: small-caps;
+    }
+
+    .link:hover {
+        color: rgb(179, 129, 179);
+    }
+</style>
+</head>
+<body bgcolor="pink">
+
+<h1 class="header" align="center">Welcome to My Website</h1>
+
+<p class="paragraph">I'm Ashlin Lee George</p>
+
+<a href="#" class="link">Click here for more information</a>
+
+</body>
+</html>

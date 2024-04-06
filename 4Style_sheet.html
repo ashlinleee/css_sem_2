@@ -1,0 +1,50 @@
+<!-- Create a external style sheet named as “external_css.css” and provide some styles for h2, hr, p & a tags. Create an html file named as
+“4Style_sheet.html”
+• Include the external style sheet with necessary tag.
+• Include the internal style sheet for body tags & also
+use class name,so that the style can be
+applied for all tags.
+• Include a <p> tags with inline style sheet. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webpage4</title>
+  <link rel="stylesheet" href="external_css.css">
+<style>
+body
+{
+margin:50px;
+background:rgb(203, 180, 180) ;
+}
+.container
+{
+text-align:center;
+}
+.center_div
+{
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+background-color:#d0f0f6;
+text-align:left;
+padding:4px;
+}
+</style>
+</head>
+<body>
+  <h2>Website Name</h2>
+  <div class="container">
+    <div class="center_div">
+    <p> This is my website!
+    </p>
+    </div>
+    </div>
+    <p style="border-style:dotted solid dashed double">This is some text in a paragraph with inline css.</p>
+    <hr>
+    <p><a href="http://www.google.co.in/" target="_blank">This is a link</a></p>
+    </body>
+</body>
+</html>
